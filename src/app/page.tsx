@@ -29,7 +29,7 @@ export default function Home() {
   });
 
   return (
-    <main className="m-auto w-[60%] ">
+    <main className="m-auto w-[90%]">
       <Carousel arrows infinite={true} autoplay>
         {DUMMY_IMAGE1.map((item: IImage) => {
           return (
