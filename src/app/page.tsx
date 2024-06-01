@@ -1,3 +1,4 @@
+import InforPopup from "@/components/InforPopup";
 import { IImage } from "@/types/images";
 import { Carousel, Image } from "antd";
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
 
   return (
     <main className="m-auto w-[96%]">
+      <InforPopup />
       <Carousel arrows infinite={true} autoplay>
         {DUMMY_IMAGE1.map((item: IImage) => {
           return (
